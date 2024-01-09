@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  box-sizing: border-box;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -12,6 +13,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --dark-brown-color: rgb(28, 10, 0);
+  --brown-color: rgb(54, 21, 0);
+  --chestnut-brown-color: rgb(96, 54, 1);
+  --face-color: rgb(204, 149, 68);
 }
 
 a {
@@ -25,8 +31,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0; 
   min-width: 320px;
   min-height: 100vh;
 }
